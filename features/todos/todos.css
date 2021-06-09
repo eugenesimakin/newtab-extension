@@ -1,0 +1,62 @@
+.todos-container {
+  position: relative;
+}
+
+.todos-container p {
+  line-height: 12;
+  font-size: 16px;
+}
+
+.todos-container ul {
+  padding-inline-start: 0;
+  margin-bottom: 20px;
+}
+
+.todos-container ul li {
+  position: relative;
+  display: flex;
+  padding: 8px;
+  list-style-type: none;
+  user-select: none;
+  font-size: 15px;
+}
+
+.todos-container ul li span {
+  cursor: pointer;
+  width: 565px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.todos-container ul li i {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.todos-container ul li i.loading {
+  cursor: not-allowed;
+}
+
+.todos-container ul li {
+  border-top: 1px solid #a0a0a0;
+}
+
+.todos-container ul li:first-child {
+  border-top: 0;
+}
+
+.todos-container span.completed {
+  text-decoration: line-through;
+}
+
+.todos-container .important-task {
+  position: absolute;
+  left: -22px;
+}
+
+.todos-container .msft-ref {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}

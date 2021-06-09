@@ -1,0 +1,78 @@
+html {}
+
+body {
+	background-image: url('https://source.unsplash.com/user/eugenesimakin/likes/1920x1080');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-color: #14213d;
+}
+
+.todos-container, .shortcuts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 15px 10px;
+	background-color: #ffffffc2;
+	border-radius: 5px;
+	width: 630px;
+	margin: 0 auto;
+}
+
+.todos-container {
+	margin-top: 30px;
+	min-height: 250px;
+}
+
+.shortcuts {
+	margin-top: 200px;
+}
+
+.shortcuts a {
+	align-items: center;
+	border-radius: 4px;
+	box-sizing: border-box;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	width: 112px;
+	text-decoration: none;
+	color: #000;
+}
+
+.shortcuts a:hover {
+	background-color: #fff;
+}
+
+.shortcuts a .icon {
+	width: 48px;
+	height: 48px;
+	margin-top: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.shortcuts a .icon img {
+	width: 32px;
+	height: 32px;
+}
+
+.shortcuts a .title {
+	display: flex;
+	padding: 2px 8px;
+	font-size: 16px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	width: 88px;
+}
+
+.shortcuts a .title span {
+	font-weight: 400;
+	overflow: hidden;
+	text-align: center;
+	text-overflow: ellipsis;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+	white-space: nowrap;
+	width: 100%;
+}
